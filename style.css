@@ -1,0 +1,44 @@
+Custom Styles
+
+#hero {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+#featured-products .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+#newsletter input[type="email"] {
+    width: 300px;
+    max-width: 100%;
+}
+
+.social-icons a {
+    color: #333;
+    margin: 0 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #007bff;
+}
+.check{
+    height: 150px;
+    width:150px;
+}
+.b2{
+    display:none;
+}
+@media (max-width: 768px) {
+    .b1{
+        display: none;
+
+    }
+    .b2{
+        display: block;
+    }
+
+}
